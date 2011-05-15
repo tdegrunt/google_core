@@ -1,5 +1,5 @@
 GoogleCore.MapView = SC.View.extend({ 
-  classNames: 'map-view'
+  classNames: 'map-view',
   map:null, 
   center:new google.maps.LatLng(0, 0), 
   zoom:14, 
